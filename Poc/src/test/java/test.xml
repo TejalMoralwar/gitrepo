@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="methods" name="Suite">
+<parameter name = "url" value = "http://zero.webappsecurity.com/login.html"/>
+
+  <test name="TestOnChrome">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="retailbanking.tc.SmokeTest"/>
+
+    </classes>
+  </test>
+  </suite>
