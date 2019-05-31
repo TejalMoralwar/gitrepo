@@ -14,7 +14,7 @@ public class PO_Login {
 	
 	//Parameterized constructor
 	public PO_Login(WebDriver d){
-		driver=d;
+		this.driver=d;
 	}
 	
 	//Elements

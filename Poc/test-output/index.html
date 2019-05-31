@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>F:\automation\eclipse-workspace\Poc\src\test\java\test.xml</span>
+                    <span>F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\test.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="retailbanking.tc.SmokeTest" hash-for-method="t_01_login(chrome, http://zero.webappsecurity.com/login.html)">t_01_login(chrome, http://zero.webappsecurity.com/login.html)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="retailbanking.tc.SmokeTest" hash-for-method="t_02_transferfunds(chrome, http://zero.webappsecurity.com/login.html)">t_02_transferfunds(chrome, http://zero.webappsecurity.com/login.html)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="retailbanking.tc.SmokeTest" hash-for-method="t_03_paybills(chrome, http://zero.webappsecurity.com/login.html)">t_03_paybills(chrome, http://zero.webappsecurity.com/login.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="retailbanking.tc.SmokeTest" hash-for-method="t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html)">t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,9 +132,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">retailbanking.tc.SmokeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -134,14 +144,6 @@
                   </a> <!-- t_01_login(chrome, http://zero.webappsecurity.com/login.html) -->
                   <span class="method-name">t_01_login</span>
                   <span class="parameters">(chrome, http://zero.webappsecurity.com/login.html)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
-	at retailbanking.po.PO_Login.LoginIntoApplication(PO_Login.java:84)
-	at retailbanking.tc.SmokeTest.t_01_login(SmokeTest.java:22)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -150,22 +152,30 @@
                   </a> <!-- t_02_transferfunds(chrome, http://zero.webappsecurity.com/login.html) -->
                   <span class="method-name">t_02_transferfunds</span>
                   <span class="parameters">(chrome, http://zero.webappsecurity.com/login.html)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Zero - Log in] but found [Zero - Account Summary]
-	at retailbanking.po.PO_Login.LoginIntoApplication(PO_Login.java:84)
-	at retailbanking.tc.SmokeTest.t_02_transferfunds(SmokeTest.java:37)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t_03_paybills(chrome, http://zero.webappsecurity.com/login.html)">
+                  </a> <!-- t_03_paybills(chrome, http://zero.webappsecurity.com/login.html) -->
+                  <span class="method-name">t_03_paybills</span>
+                  <span class="parameters">(chrome, http://zero.webappsecurity.com/login.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html)">
+                  </a> <!-- t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html) -->
+                  <span class="method-name">t_04_addNewPayee</span>
+                  <span class="parameters">(chrome, http://zero.webappsecurity.com/login.html)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\automation\eclipse-workspace\Poc\src\test\java\test.xml</span>
+            <span class="header-content">F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\test.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -216,20 +226,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 't_01_login')
+data.setCell(0, 1, 't_03_paybills')
 data.setCell(0, 2, 'retailbanking.tc.SmokeTest')
-data.setCell(0, 3, 16873);
+data.setCell(0, 3, 153939);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 't_02_transferfunds')
+data.setCell(1, 1, 't_04_addNewPayee')
 data.setCell(1, 2, 'retailbanking.tc.SmokeTest')
-data.setCell(1, 3, 16829);
+data.setCell(1, 3, 140291);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 't_02_transferfunds')
+data.setCell(2, 2, 'retailbanking.tc.SmokeTest')
+data.setCell(2, 3, 135323);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 't_01_login')
+data.setCell(3, 2, 'retailbanking.tc.SmokeTest')
+data.setCell(3, 3, 129842);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,16 +259,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">t_01_login(chrome, http://zero.webappsecurity.com/login.html)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br></span>
-                <span class="reporter-method-output">pass-username set with value:username<br></span>
-                <span class="reporter-method-output">info-password set with value:password<br></span>
-                <span class="reporter-method-output">pass-clicked on signin button<br></span>
-                <span class="reporter-method-output">pass-successfully login with usernameusernamepasswordpassword<br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">t_02_transferfunds(chrome, http://zero.webappsecurity.com/login.html)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br></span>
@@ -258,6 +266,66 @@ return data;
                 <span class="reporter-method-output">info-password set with value:password<br></span>
                 <span class="reporter-method-output">pass-clicked on signin button<br></span>
                 <span class="reporter-method-output">pass-successfully login with usernameusernamepasswordpassword<br></span>
+                <span class="reporter-method-output">pass-login successfully<br></span>
+                <span class="reporter-method-output">pass-set value from from_account as2<br></span>
+                <span class="reporter-method-output">pass-set value from to_account as1<br></span>
+                <span class="reporter-method-output">pass-entered amount as:20<br></span>
+                <span class="reporter-method-output">pass-entered description as:test<br></span>
+                <span class="reporter-method-output">pass-clicked on continue<br></span>
+                <span class="reporter-method-output">pass-page navigated to transfer funds verify<br></span>
+                <span class="reporter-method-output">pass-page navigated to transfer funds verify page<br></span>
+                <span class="reporter-method-output">pass-test case completed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br></span>
+                <span class="reporter-method-output">pass-username set with value:username<br></span>
+                <span class="reporter-method-output">info-password set with value:password<br></span>
+                <span class="reporter-method-output">pass-clicked on signin button<br></span>
+                <span class="reporter-method-output">pass-successfully login with usernameusernamepasswordpassword<br></span>
+                <span class="reporter-method-output">pass-login successfully<br></span>
+                <span class="reporter-method-output">pass-clicked on paybills<br></span>
+                <span class="reporter-method-output">pass-set payee name as:tejal<br></span>
+                <span class="reporter-method-output">pass-set payee address as:pune<br></span>
+                <span class="reporter-method-output">pass-set account as:savings<br></span>
+                <span class="reporter-method-output">pass-set payee details as:employee<br></span>
+                <span class="reporter-method-output">pass-add button clicked<br></span>
+                <span class="reporter-method-output">pass-add new payee successfully<br></span>
+                <span class="reporter-method-output">pass-test case completed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">t_01_login(chrome, http://zero.webappsecurity.com/login.html)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br></span>
+                <span class="reporter-method-output">pass-username set with value:username<br></span>
+                <span class="reporter-method-output">info-password set with value:password<br></span>
+                <span class="reporter-method-output">pass-clicked on signin button<br></span>
+                <span class="reporter-method-output">pass-successfully login with usernameusernamepasswordpassword<br></span>
+                <span class="reporter-method-output">pass-login successfully<br></span>
+                <span class="reporter-method-output">pass-login successfully<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">t_03_paybills(chrome, http://zero.webappsecurity.com/login.html)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br></span>
+                <span class="reporter-method-output">pass-username set with value:username<br></span>
+                <span class="reporter-method-output">info-password set with value:password<br></span>
+                <span class="reporter-method-output">pass-clicked on signin button<br></span>
+                <span class="reporter-method-output">pass-successfully login with usernameusernamepasswordpassword<br></span>
+                <span class="reporter-method-output">pass-login successfully<br></span>
+                <span class="reporter-method-output">pass-clicked on paybills<br></span>
+                <span class="reporter-method-output">pass-select payee from list as:apple<br></span>
+                <span class="reporter-method-output">pass-select account from list as:2<br></span>
+                <span class="reporter-method-output">pass-sent amount as:20<br></span>
+                <span class="reporter-method-output">pass-select date<br></span>
+                <span class="reporter-method-output">pass-sent description as:test<br></span>
+                <span class="reporter-method-output">pass-pay button clicked successfully<br></span>
+                <span class="reporter-method-output">pass-fill pay bills successfully<br></span>
+                <span class="reporter-method-output">pass-test case completed<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,15 +345,19 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">retailbanking.tc.SmokeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
+                <span class="method-name">t_01_login(chrome, http://zero.webappsecurity.com/login.html)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">t_02_transferfunds(chrome, http://zero.webappsecurity.com/login.html)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">t_01_login(chrome, http://zero.webappsecurity.com/login.html)</span>
+                <span class="method-name">t_04_addNewPayee(chrome, http://zero.webappsecurity.com/login.html)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t_03_paybills(chrome, http://zero.webappsecurity.com/login.html)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

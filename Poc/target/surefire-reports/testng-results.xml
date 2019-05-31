@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
     <line>
       <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
@@ -8,6 +8,15 @@
       <![CDATA[pass-username set with value:username<br>]]>
     </line>
     <line>
+      <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[info-password set with value:password<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-username set with value:username<br>]]>
+    </line>
+    <line>
       <![CDATA[info-password set with value:password<br>]]>
     </line>
     <line>
@@ -20,6 +29,24 @@
       <![CDATA[info-password set with value:password<br>]]>
     </line>
     <line>
+      <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-username set with value:username<br>]]>
+    </line>
+    <line>
+      <![CDATA[info-password set with value:password<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on signin button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+    </line>
+    <line>
       <![CDATA[pass-clicked on signin button<br>]]>
     </line>
     <line>
@@ -29,6 +56,12 @@
       <![CDATA[pass-login successfully<br>]]>
     </line>
     <line>
+      <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
       <![CDATA[pass-clicked on signin button<br>]]>
     </line>
     <line>
@@ -38,13 +71,82 @@
       <![CDATA[pass-login successfully<br>]]>
     </line>
     <line>
+      <![CDATA[pass-username set with value:username<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on signin button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+    </line>
+    <line>
       <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[info-password set with value:password<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on paybills<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on paybills<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on paybills<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on signin button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-set payee name as:pooja<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-set payee address as:pune<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-select payee from list as:apple<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-selected currency is: SGD<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-set account as:savings<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-set amount as: 25<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-set payee details as:employee<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-select account from list as:2<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-select currency radio button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-calculate costs button clicked successfully<br>]]>
     </line>
     <line>
       <![CDATA[pass-set value from from_account as2<br>]]>
     </line>
     <line>
       <![CDATA[pass-set value from to_account as1<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-add button clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-purchase button clicked successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-sent amount as:20<br>]]>
     </line>
     <line>
       <![CDATA[pass-entered amount as:20<br>]]>
@@ -56,6 +158,18 @@
       <![CDATA[pass-clicked on continue<br>]]>
     </line>
     <line>
+      <![CDATA[pass-currency purchased successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-test case completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-add new payee successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-test case completed<br>]]>
+    </line>
+    <line>
       <![CDATA[pass-page navigated to transfer funds verify<br>]]>
     </line>
     <line>
@@ -64,13 +178,146 @@
     <line>
       <![CDATA[pass-test case completed<br>]]>
     </line>
+    <line>
+      <![CDATA[pass-select date<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-sent description as:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-pay button clicked successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-fill pay bills successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-test case completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-username set with value:username<br>]]>
+    </line>
+    <line>
+      <![CDATA[info-password set with value:password<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-username set with value:username<br>]]>
+    </line>
+    <line>
+      <![CDATA[info-password set with value:password<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on signin button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-clicked on signin button<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-login successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-Account selected as: 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[fail-unable to select yearException:org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUMEET', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SUMEET~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: d6dcd9cee000af0245de849fc39cabd4<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-test case completed<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-select value from account3<br>]]>
+    </line>
+    <line>
+      <![CDATA[pass-test case completed<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="33096" started-at="2019-05-26T11:43:22Z" finished-at="2019-05-26T11:43:56Z">
+  <suite name="Suite" duration-ms="156603" started-at="2019-05-31T17:50:36Z" finished-at="2019-05-31T17:53:13Z">
     <groups>
     </groups>
-    <test name="TestOnChrome" duration-ms="33096" started-at="2019-05-26T11:43:22Z" finished-at="2019-05-26T11:43:56Z">
+    <test name="TestOnChrome" duration-ms="156603" started-at="2019-05-31T17:50:36Z" finished-at="2019-05-31T17:53:13Z">
       <class name="retailbanking.tc.SmokeTest">
-        <test-method status="PASS" signature="t_01_login(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@2133c8f8]" name="t_01_login" duration-ms="28990" started-at="2019-05-26T11:43:23Z" finished-at="2019-05-26T11:43:52Z">
+        <test-method status="PASS" signature="t_04_addNewPayee(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_04_addNewPayee" duration-ms="94395" started-at="2019-05-31T17:50:37Z" finished-at="2019-05-31T17:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-username set with value:username<br>]]>
+            </line>
+            <line>
+              <![CDATA[info-password set with value:password<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on signin button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-login successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on paybills<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-set payee name as:pooja<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-set payee address as:pune<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-set account as:savings<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-set payee details as:employee<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-add button clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-add new payee successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-test case completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_04_addNewPayee -->
+        <test-method status="PASS" signature="t_01_login(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_01_login" duration-ms="77979" started-at="2019-05-31T17:50:37Z" finished-at="2019-05-31T17:51:55Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +354,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t_01_login -->
-        <test-method status="PASS" signature="t_02_transferfunds(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@2133c8f8]" name="t_02_transferfunds" duration-ms="33000" started-at="2019-05-26T11:43:23Z" finished-at="2019-05-26T11:43:56Z">
+        <test-method status="PASS" signature="t_02_transferfunds(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_02_transferfunds" duration-ms="95984" started-at="2019-05-31T17:50:37Z" finished-at="2019-05-31T17:52:13Z">
           <params>
             <param index="0">
               <value>
@@ -165,6 +412,217 @@
             </line>
           </reporter-output>
         </test-method> <!-- t_02_transferfunds -->
+        <test-method status="PASS" signature="t_05_purchaseForeignCurrency(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_05_purchaseForeignCurrency" duration-ms="94357" started-at="2019-05-31T17:50:37Z" finished-at="2019-05-31T17:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-username set with value:username<br>]]>
+            </line>
+            <line>
+              <![CDATA[info-password set with value:password<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on signin button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-login successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on paybills<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-selected currency is: SGD<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-set amount as: 25<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-select currency radio button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-calculate costs button clicked successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-purchase button clicked successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-currency purchased successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-test case completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_05_purchaseForeignCurrency -->
+        <test-method status="PASS" signature="t_03_paybills(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_03_paybills" duration-ms="99431" started-at="2019-05-31T17:50:37Z" finished-at="2019-05-31T17:52:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-username set with value:username<br>]]>
+            </line>
+            <line>
+              <![CDATA[info-password set with value:password<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on signin button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-login successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on paybills<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-select payee from list as:apple<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-select account from list as:2<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-sent amount as:20<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-select date<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-sent description as:test<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-pay button clicked successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-fill pay bills successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-test case completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_03_paybills -->
+        <test-method status="PASS" signature="t_06_purchaseForeignCurrency(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_06_purchaseForeignCurrency" duration-ms="77721" started-at="2019-05-31T17:51:55Z" finished-at="2019-05-31T17:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-username set with value:username<br>]]>
+            </line>
+            <line>
+              <![CDATA[info-password set with value:password<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on signin button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-login successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-select value from account3<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-test case completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_06_purchaseForeignCurrency -->
+        <test-method status="PASS" signature="t_07_OnlineStatement(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.SmokeTest@96532d6]" name="t_07_OnlineStatement" duration-ms="61437" started-at="2019-05-31T17:52:11Z" finished-at="2019-05-31T17:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass-chrome browser invoked with url as:http://zero.webappsecurity.com/login.html<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-username set with value:username<br>]]>
+            </line>
+            <line>
+              <![CDATA[info-password set with value:password<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-clicked on signin button<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-successfully login with usernameusernamepasswordpassword<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-login successfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-Account selected as: 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[fail-unable to select yearException:org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUMEET', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SUMEET~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: d6dcd9cee000af0245de849fc39cabd4<br>]]>
+            </line>
+            <line>
+              <![CDATA[pass-test case completed<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_07_OnlineStatement -->
       </class> <!-- retailbanking.tc.SmokeTest -->
     </test> <!-- TestOnChrome -->
   </suite> <!-- Suite -->

@@ -7,7 +7,7 @@
     <classes>
       <class name="retailbanking.tc.SmokeTest">
         <methods>
-          <include name="t_02_transferfunds" invocation-numbers="0"/>
+          <include name="t_04_addNewPayee" invocation-numbers="0"/>
         </methods>
       </class> <!-- retailbanking.tc.SmokeTest -->
     </classes>

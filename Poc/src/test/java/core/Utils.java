@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.service.ExtentTestManager;
+
 public class Utils {
 	
   public static WebDriver invokebrowser(String browsertype, String url)
@@ -36,6 +38,18 @@ public class Utils {
 	public static void WriteLogs(String logtype,String msg)
 	{
 		Reporter.log(logtype+"-"+msg+"<br>",true);
+		switch(logtype.toLowerCase()) {
+		case "pass":
+		      ExtentTestManager.getTest().pass(msg);
+		      break;
+		case "fail":
+		      ExtentTestManager.getTest().fail(msg);
+		      break;
+		case "info":
+		      ExtentTestManager.getTest().info(msg);
+		      break;
+		     
+		}
 	}
   }
 

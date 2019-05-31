@@ -1,4 +1,10 @@
-F:\automation\eclipse-workspace\Poc\src\test\java\retailbanking\tc\SmokeTest.java
-F:\automation\eclipse-workspace\Poc\src\test\java\retailbanking\po\Po_TransferFunds.java
-F:\automation\eclipse-workspace\Poc\src\test\java\core\Utils.java
-F:\automation\eclipse-workspace\Poc\src\test\java\retailbanking\po\PO_Login.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_AccountActivity_ShowTrans.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_Login.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_OnlineStatement.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\Po_TransferFunds.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_AccountActivity_FindTrans.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_PayBills.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\tc\SmokeTest.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_PayBills_AddNewPayee.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\core\Utils.java
+F:\automation\eclipse-workspace\gitrepo\Poc\src\test\java\retailbanking\po\PO_PayBills_PurchaseForeignCurr.java
